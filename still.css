@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #607D8B;
+}
+nav ul {
+	list-style: none;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 1em;
+	margin: 0 1em;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+main {
+	width: 100%;
+	height: 100vh;
+	background: url('images/header.jpeg');	
+	-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+			background-size: cover;
+	text-align: center;
+	padding-top: 20%;
+}
+
+main h1 {
+	color: white;
+	margin-bottom: 1em;
+}
+
+main button {
+	padding: 1em 2em;
+	background: #607D8B;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-o-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+section {
+	padding: 5em 10em;
+}
+
+section h1 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #607D8B;
+	margin-bottom: 1em;
+}
+
+.column {
+	display: inline-block;
+	width: 32%;
+	text-align: center;
+}
+
+h2 {
+	margin-bottom: 1em;
+}
+
+p {
+	text-align: justify;
+	padding: 5px;
+}
+
+footer {
+	width: 100%;
+	background: #607D8B;
+	padding: 1em;
+	color: white;
+	text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+
+	main{
+		padding: 1em;
+		background: #455A65;
+		height: auto;
+	}
+
+	main button {
+		display: none;
+	}
+
+	nav {
+		position: initial;
+	}
+
+}
