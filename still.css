@@ -98,12 +98,13 @@ footer {
 		height: auto;
 	}
 
-	main button {
-		display: none;
-	}
+	main button {display: none;}
 
-	nav {
-		position: initial;
-	}
+	nav {position: initial;}
 
+	nav ul li {display:block;}
+
+	.column {width: 100%;}
+
+	section {padding: 5em;}
 }
